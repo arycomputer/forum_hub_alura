@@ -76,8 +76,8 @@ Abra seu arquivo `src/main/resources/application.properties` e verifique/modifiq
 
 # Configurações do Banco de Dados MySQL
 spring.datasource.url=jdbc:mysql://localhost:3306/forumdb?createDatabaseIfNotExist=true&useSSL=false&serverTimezone=UTC
-spring.datasource.username=${MYSQL_USERNAME:root} # Use :root como valor padrão, se a variável não for definida
-spring.datasource.password=${MYSQL_PASSWORD:admin} # Use :admin como valor padrão, se a variável não for definida
+spring.datasource.username=${MYSQL_USERNAME:root} # Use :root como valor padrão, se a variável não for definida nas variaveis de ambiente
+spring.datasource.password=${MYSQL_PASSWORD:admin} # Use :admin como valor padrão, se a variável não for definida nas variaveis de ambiente
 
 # Driver do MySQL
 spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
