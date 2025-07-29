@@ -1,0 +1,1 @@
+--INSERT INTO `forumhub_db`.`users` (`email`, `password`, `role`) VALUES ('arycomputer@hotmail.com', '12345678', 'admin');
